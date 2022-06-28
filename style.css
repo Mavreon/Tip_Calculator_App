@@ -171,10 +171,9 @@ input[type=number]::-webkit-outer-spin-button {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center; }
-    .container .app-title {
-      margin: 2rem 0; }
+    justify-content: space-around;
+    align-items: center;
+    height: 125vh; }
   .box {
     display: flex;
     flex-direction: column; }

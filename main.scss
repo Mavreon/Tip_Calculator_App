@@ -235,12 +235,9 @@ input[type=number]::-webkit-outer-spin-button {
     .container{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-
-        .app-title{
-            margin: 2rem 0;
-        }
+        height: 125vh;
     }
    .box{
     display: flex;
