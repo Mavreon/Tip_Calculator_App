@@ -227,7 +227,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media (max-width: 50rem) {
     body{
-        //background-color: red;
         display: flex;
         flex-direction: column;
         padding: 1.5rem;
@@ -248,4 +247,11 @@ input[type=number]::-webkit-outer-spin-button {
     }
    }
 
+   .price-text {
+    font-size: 3.2rem !important;
+   }
+
+   .btn.reset-btn{
+    margin-top: 2.5rem !important;
+   }
 }
