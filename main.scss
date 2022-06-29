@@ -19,6 +19,11 @@ $color-white: hsl(0, 0%, 100%);
     transition: all 0.15s ease-in;
 }
 
+*::selection{
+    background-color: $color-strong-cyan;
+}
+
+
 html{
     font-size: 62.5%;
 }

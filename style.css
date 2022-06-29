@@ -10,6 +10,9 @@
   border: 0;
   transition: all 0.15s ease-in; }
 
+*::selection {
+  background-color: #26c0ab; }
+
 html {
   font-size: 62.5%; }
 
