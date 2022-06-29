@@ -51,10 +51,7 @@ peopleInput.addEventListener('input', ()=>{
 percentButtons.forEach(percentButton => {
     
     percentButton.addEventListener('click', ()=>{
-        percentButtons.forEach(percentButton => {
-            percentButton.style.backgroundColor = 'hsl(183, 100%, 15%)';
-            percentButton.style.color = 'white';
-        });
+        ResetPercentButtons();
         customInput.style.boxShadow = 'none';
         customInput.value = "";
         let percent = percentButton.textContent.replace('%', '');
@@ -70,11 +67,25 @@ percentButtons.forEach(percentButton => {
 resetButton.addEventListener('click', ()=>{
     //console.log("Reset Button Clicked");
     billInput.value = "";
-    custumInput.value = "";
-    totalAmountText = "";
-    tipAmountText = "";
-})
+    customInput.value = "";
+    peopleInput.value = "";
+    totalAmountText.textContent = "$00.00";
+    tipAmountText.textContent = "$00.00";
+    ResetPercentButtons();
+    selectedPercent = 0;
+    billInputDiv.style.boxShadow = 'none';
+    peopleInputDiv.style.boxShadow = 'none';
+    errorText.style.opacity = '0';
+    customInput.style.boxShadow = 'none';
 
+})
+function ResetPercentButtons()
+{
+    percentButtons.forEach(percentButton => {
+        percentButton.style.backgroundColor = 'hsl(183, 100%, 15%)';
+        percentButton.style.color = 'white';
+    });
+}
 function Calculate()
 {
     if(billInput.value != "" && peopleInput.value != "" && (customInput.value != "" || selectedPercent != 0))
