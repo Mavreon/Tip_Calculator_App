@@ -11,7 +11,8 @@
   transition: all 0.15s ease-in; }
 
 *::selection {
-  background-color: #26c0ab; }
+  background-color: #26c0ab;
+  color: white; }
 
 html {
   font-size: 62.5%; }

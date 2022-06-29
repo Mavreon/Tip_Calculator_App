@@ -21,8 +21,8 @@ $color-white: hsl(0, 0%, 100%);
 
 *::selection{
     background-color: $color-strong-cyan;
+    color: $color-white;
 }
-
 
 html{
     font-size: 62.5%;
