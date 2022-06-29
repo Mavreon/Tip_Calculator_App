@@ -68,45 +68,49 @@ input[type=number]::-webkit-outer-spin-button {
       width: 100%;
       display: flex;
       flex-direction: column; }
-      .container .box .setup-section .bill-section .bill-input {
-        display: flex;
-        justify-content: space-between;
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
-        background-color: #f4fafa; }
-        .container .box .setup-section .bill-section .bill-input .dollar-sign {
-          opacity: 0.5; }
-        .container .box .setup-section .bill-section .bill-input #bill-input {
-          text-align: end;
-          background-color: inherit;
-          border: 0; }
-        .container .box .setup-section .bill-section .bill-input:active, .container .box .setup-section .bill-section .bill-input:focus, .container .box .setup-section .bill-section .bill-input:hover {
-          box-shadow: inset 0 0 0 2px #26c0ab !important; }
-          .container .box .setup-section .bill-section .bill-input:active::placeholder, .container .box .setup-section .bill-section .bill-input:focus::placeholder, .container .box .setup-section .bill-section .bill-input:hover::placeholder {
-            opacity: 0; }
-      .container .box .setup-section .tip-section .percent-section {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.2rem; }
-        .container .box .setup-section .tip-section .percent-section .btn.percent-btn {
-          width: 100%; }
-        .container .box .setup-section .tip-section .percent-section #custom-percent {
-          display: inline-block;
-          padding: 0.75rem 0;
-          background-color: #f4fafa;
+      .container .box .setup-section .bill-section {
+        text-align: start; }
+        .container .box .setup-section .bill-section .bill-input {
+          display: flex;
+          justify-content: space-between;
+          padding: 1rem 2rem;
           border-radius: 0.5rem;
-          width: 100%;
-          text-align: end;
-          padding: 0 1rem; }
-          .container .box .setup-section .tip-section .percent-section #custom-percent::placeholder {
-            color: #00494d;
-            opacity: 0.75;
-            text-align: center;
-            transition: all 0.15s ease-in; }
-          .container .box .setup-section .tip-section .percent-section #custom-percent:active, .container .box .setup-section .tip-section .percent-section #custom-percent:focus, .container .box .setup-section .tip-section .percent-section #custom-percent:hover {
+          background-color: #f4fafa; }
+          .container .box .setup-section .bill-section .bill-input .dollar-sign {
+            opacity: 0.5; }
+          .container .box .setup-section .bill-section .bill-input #bill-input {
+            text-align: end;
+            background-color: inherit;
+            border: 0; }
+          .container .box .setup-section .bill-section .bill-input:active, .container .box .setup-section .bill-section .bill-input:focus, .container .box .setup-section .bill-section .bill-input:hover {
             box-shadow: inset 0 0 0 2px #26c0ab !important; }
-            .container .box .setup-section .tip-section .percent-section #custom-percent:active::placeholder, .container .box .setup-section .tip-section .percent-section #custom-percent:focus::placeholder, .container .box .setup-section .tip-section .percent-section #custom-percent:hover::placeholder {
+            .container .box .setup-section .bill-section .bill-input:active::placeholder, .container .box .setup-section .bill-section .bill-input:focus::placeholder, .container .box .setup-section .bill-section .bill-input:hover::placeholder {
               opacity: 0; }
+      .container .box .setup-section .tip-section {
+        text-align: start; }
+        .container .box .setup-section .tip-section .percent-section {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1.2rem; }
+          .container .box .setup-section .tip-section .percent-section .btn.percent-btn {
+            width: 100%; }
+          .container .box .setup-section .tip-section .percent-section #custom-percent {
+            display: inline-block;
+            padding: 0.75rem 0;
+            background-color: #f4fafa;
+            border-radius: 0.5rem;
+            width: 100%;
+            text-align: end;
+            padding: 0 1rem; }
+            .container .box .setup-section .tip-section .percent-section #custom-percent::placeholder {
+              color: #00494d;
+              opacity: 0.75;
+              text-align: center;
+              transition: all 0.15s ease-in; }
+            .container .box .setup-section .tip-section .percent-section #custom-percent:active, .container .box .setup-section .tip-section .percent-section #custom-percent:focus, .container .box .setup-section .tip-section .percent-section #custom-percent:hover {
+              box-shadow: inset 0 0 0 2px #26c0ab !important; }
+              .container .box .setup-section .tip-section .percent-section #custom-percent:active::placeholder, .container .box .setup-section .tip-section .percent-section #custom-percent:focus::placeholder, .container .box .setup-section .tip-section .percent-section #custom-percent:hover::placeholder {
+                opacity: 0; }
       .container .box .setup-section .people-section .header-text {
         display: flex;
         justify-content: space-between;
