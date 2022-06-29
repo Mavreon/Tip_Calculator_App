@@ -10,10 +10,9 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/style.css">
   <style>
-    .attribution { font-size: 1.1rem; text-align: center; padding: 1rem 0; color:hsl(186, 14%, 43%) }
+    .attribution { font-size: 1.1rem; text-align: center; padding: 1rem 0; color:hsl(186, 14%, 43%); align-self: flex-end; }
     .attribution a { color: hsl(183, 100%, 15%);font-size: 1.1rem }
   </style>
 </head>
@@ -71,7 +70,8 @@
             <p class="error-text">Can't be zero</p>
           </div>
           <div class="people-input">
-            <i class="fa-solid fa-user-large"></i>
+            <!-- <i class="fa-solid fa-user-large"></i> -->
+            <i><img src="/images/icon-person.svg" alt="" srcset="person icon "></i>
             <input type="number" name="NumberOfPeople" id="people-input">
           </div>
         </div>
@@ -83,14 +83,14 @@
               <p class="label-text">Tip Amount</p>
               <span class="per-person-text">/ person</span>
             </div>
-            <h1 class="price-text">$00.00</h1>
+            <h1 class="tip-amount price-text">$00.00</h1>
           </div>
           <div class="total">
             <div class="header-text">
               <p class="label-text">Total</p>
               <span class="per-person-text">/ person</span>
             </div>
-            <h1 class="price-text">$00.00</h1>
+            <h1 class="total-amount price-text">$00.00</h1>
           </div>
         </div>
 
@@ -103,6 +103,7 @@
     </div>
   </div>
   
+  <script src="/index.js"></script>
   
 </body>
 </html>
