@@ -151,7 +151,8 @@ input[type=number]::-webkit-outer-spin-button {
           width: 100%; }
         .container .box .result-section .amount .header-text {
           display: flex;
-          flex-direction: column; }
+          flex-direction: column;
+          text-align: start; }
         .container .box .result-section .amount .label-text {
           color: white; }
         .container .box .result-section .amount .per-person-text {
