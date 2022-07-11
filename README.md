@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip calculator app
+# Tip calculator app (Splitter)
 
 Live Link(Netlify): https://stupendous-douhua-87a846.netlify.app
 
